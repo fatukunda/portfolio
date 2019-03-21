@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style/navigation.css";
 
 const Navigation = () => {
@@ -6,18 +7,18 @@ const Navigation = () => {
 		<nav className="navigation mt-4">
 			<div>
 				<ul className="links">
-					<a href="#">
+					<Link to="/portfolio">
 						<li>Portfolio</li>
-					</a>
-					<a href="#">
+					</Link>
+					<Link to="/resume">
 						<li>Resume</li>
-					</a>
-					<a href="#">
-						<li>Skills</li>
-					</a>
-					<a href="#">
+					</Link>
+					<Link to="/skillset">
+						<li>Skillset</li>
+					</Link>
+					<Link to="contact">
 						<li>Contact Me</li>
-					</a>
+					</Link>
 				</ul>
 			</div>
 		</nav>
