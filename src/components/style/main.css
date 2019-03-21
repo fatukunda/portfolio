@@ -1,0 +1,29 @@
+.main {
+	background-color: #c28b2c;
+}
+.intro {
+	margin: 100px;
+	color: #fff;
+}
+.details {
+	margin-left: 100px;
+}
+.details button {
+	margin: 10px;
+	width: 150px;
+	background-color: #246870;
+}
+@media only screen and (max-width: 600px) {
+	.intro {
+		margin: 10px;
+		text-align: center;
+	}
+	.details {
+		margin: 10px;
+		text-align: center;
+	}
+	.details button {
+		margin: 4px;
+		width: 100px;
+	}
+}

@@ -1,0 +1,11 @@
+.Header {
+	margin-top: 50px;
+	color: #fff;
+}
+.Header img {
+	height: 200px;
+	border-radius: 50%;
+}
+.Header hr {
+	border-color: #246870;
+}
