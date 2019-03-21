@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style/main.css";
 
 const Main = () => {
@@ -9,8 +10,12 @@ const Main = () => {
 				<h3 className="lead">A full-stack Javascript developer specialized in both front and back-end.</h3>
 			</div>
 			<div className="details">
-				<button className="btn text-white">Portfolio</button>
-				<button className="btn text-white">Skillset</button>
+				<Link to="/portfolio">
+					<button className="btn text-white">Portfolio</button>
+				</Link>
+				<Link to="/skillset">
+					<button className="btn text-white">Skillset</button>
+				</Link>
 			</div>
 		</div>
 	);

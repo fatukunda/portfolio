@@ -1,0 +1,9 @@
+.timeLineItem img {
+	width: 100%;
+}
+.timeLineItem span {
+}
+.timeLineItem h4 {
+	text-transform: uppercase;
+	color: #246870;
+}
